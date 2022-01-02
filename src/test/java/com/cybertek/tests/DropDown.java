@@ -72,6 +72,7 @@ public class DropDown {
         // will return nothing
         int actualPrice = Integer.parseInt(totalPriceElement.getAttribute("value"));
 
+
         Assert.assertEquals(actualPrice,expectedPrice,"Price is NOT as expected");
 
 
